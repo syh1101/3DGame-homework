@@ -72,7 +72,7 @@ public class test : MonoBehaviour {
   1.`Gameobject`are the fundamental objects in Unity that represent characters, props and scenery. They do not accomplish much in themselves but they act as containers for Components, which implement the real functionality.  
 2.`Transform`：Position, rotation and scale of an object.  
 3.`Component`：Base class for everything attached to GameObjects.  
- - 描述下图中 table 对象（实体）的属性、table 的 Transform 的属性、 table 的部件
+ - 描述下图中 table 对象（实体）的属性、table 的 Transform 的属性、 table 的部件  
   【图片作业链接没有，新建项目加入GameObject：`Cube`】  
    - `table属性`：Tag，Layer  
    - `table的Transform属性`：Position，Rotation，Scale  
