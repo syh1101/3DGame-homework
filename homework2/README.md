@@ -175,7 +175,8 @@ public class test : MonoBehaviour {
 	}
 ```
 参考了[相关博客](https://blog.csdn.net/marvelgl/article/details/60639308)并进行了修改（通过Screen.width和Screen.height进行了相关坐标计算）
-- 游戏运行情况展示  
+- 游戏运行情况展示    
+- [演示视频链接](https://v.qq.com/x/page/c09256t7bw3.html?&ptag=4_7.5.0.22257_copy)
 ![在这里插入图片描述](./img/9.png)  
 
 
