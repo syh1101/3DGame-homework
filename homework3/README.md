@@ -30,14 +30,14 @@
 ## 游戏结构
 > scripts文件夹结构  
 
-![](./img/1.png)  
+![](./Priest and Devils/img/1.png)  
 > 预制  
 
-![](./img/2.png)
+![](./Priest and Devils/img/2.png)
 
 > 一个较丑的SkyBox
 
-![](./img/3.png)
+![](./Priest and Devils/img/3.png)
 
 > 导演SSDirector使用单实例模式保证导演实例有且仅有一个,职责如下:
 
@@ -578,8 +578,8 @@ public class ClickGUI : MonoBehaviour{
 ```
 
 ## 游戏运行截图
-![](./img/4.png)  
-![](./img/5.png)
+![](./Priest and Devils/img/4.png)  
+![](./Priest and Devils/img/5.png)
 
 十分感谢此篇[参考博客](https://segmentfault.com/a/1190000014161302)    
 [我的博客](https://blog.csdn.net/Passenger317_/article/details/101124080)  
