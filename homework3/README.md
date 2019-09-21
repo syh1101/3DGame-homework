@@ -583,7 +583,7 @@ public class ClickGUI : MonoBehaviour{
 
 十分感谢此篇[参考博客](https://segmentfault.com/a/1190000014161302)    
 [我的博客](https://blog.csdn.net/Passenger317_/article/details/101124080)  
-[视频演示]()
+[视频演示](https://v.qq.com/x/page/t0929zxj2wc.html?&ptag=4_7.5.1.22261_copy)
 
 
 
