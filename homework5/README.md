@@ -257,7 +257,7 @@ public class RoundActionManager : SSActionManager, ISSActionCallback
 	}
 }
 ```
-### UI实现(代码详见[/asset/script/UserGUI.cs]())
+### UI实现(代码详见[/asset/script/UserGUI.cs](https://github.com/syh1101/3DGame-homework/blob/master/homework5/hit_UFO/Assets/Script/UserGUI.cs))
 ### 积分规则
 > 飞碟速度越快,体积越小,得到的分数就越高,不同颜色的飞碟得分情况的也不同
 ```C#
@@ -296,9 +296,9 @@ public class ScoreRecorder : MonoBehaviour {
 ## 游戏运行截图
 ![](./img/3.png)
 
-[项目链接]()  
-[视频演示链接]()  
-[博客链接]()  
+[项目链接](https://github.com/syh1101/3DGame-homework/tree/master/homework5)  
+[视频演示链接](http://m.v.qq.com/play/play.html?vid=o3006zqj2ba&ptag=4_7.6.0.22280_copy)  
+[博客链接](https://blog.csdn.net/Passenger317_/article/details/102472275)  
 ## 参考资料
 [感谢此篇参考博客](https://blog.csdn.net/hellowangld/article/details/79980641)  
 [爆炸效果学习](https://blog.csdn.net/jukaiblog/article/details/10343211?locationNum=11&fps=1)
