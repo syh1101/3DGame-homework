@@ -13,20 +13,24 @@
 添加好的target，点击`DownloadDatabase`下载unity扩展包并导入项目
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019122412385269.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Bhc3NlbmdlcjMxN18=,size_16,color_FFFFFF,t_70)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191224124533474.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Bhc3NlbmdlcjMxN18=,size_16,color_FFFFFF,t_70)
 
 ### 创建AR Camera，添加License Key
 右侧`create`->`Vuforia Engine`->选择添加`AR Camera`  
 
-`Inspector` ->`Open Vuforia Engine configuration`->添加`License Key`
+`Inspector` ->`Open Vuforia Engine configuration`->添加`License Key`  
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191224124702734.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Bhc3NlbmdlcjMxN18=,size_16,color_FFFFFF,t_70)  
 
 这步开始的时候遇到了无法选择`Open Vuforia Engine configuration`
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191224125713189.png)  
 
 对应解决办法：  
 
 [参考链接](https://blog.csdn.net/qq_35768238/article/details/80728931)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191224125720662.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Bhc3NlbmdlcjMxN18=,size_16,color_FFFFFF,t_70)
 ### 添加Image Target
 
@@ -34,12 +38,14 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191224125410362.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Bhc3NlbmdlcjMxN18=,size_16,color_FFFFFF,t_70)
 ### 图像识别结果
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191224124935657.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Bhc3NlbmdlcjMxN18=,size_16,color_FFFFFF,t_70)
 ## 2、 虚拟按键小游戏
 ### 增加虚拟按键
 `Advanced`->`Add Virtual Button`  
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019122412491962.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Bhc3NlbmdlcjMxN18=,size_16,color_FFFFFF,t_70)
+
 ### 创建脚本
 &emsp;对`IVuforiaButtonEventHandler`接口进行实现，以对虚拟按钮的按下与释放事件进行监听并处理，挂载到`ImageTarget`下并对变量进行指定
 ```c#
@@ -84,7 +90,8 @@ public class VirtualButtonEventHandler : MonoBehaviour, IVirtualButtonEventHandl
 }
 ```
 >将Vuforia的`Virtual button`预制体挂载到`ImageTarget`下作为子对象，同时调整至合适大小和位置。为了使虚拟按钮可见，可以在按钮下添加相应大小的平面并附着材质
->
+
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191224124950596.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Bhc3NlbmdlcjMxN18=,size_16,color_FFFFFF,t_70)
 
 [博客链接](https://blog.csdn.net/Passenger317_/article/details/103680593)    
