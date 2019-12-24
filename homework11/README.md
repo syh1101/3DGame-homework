@@ -79,3 +79,7 @@ public class VirtualButtonEventHandler : MonoBehaviour, IVirtualButtonEventHandl
 >
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191224124950596.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Bhc3NlbmdlcjMxN18=,size_16,color_FFFFFF,t_70)
 
+[博客链接](https://blog.csdn.net/Passenger317_/article/details/103680593)    
+
+[视频演示链接](http://m.v.qq.com/play/play.html?vid=y304030716n&ptag=4_7.7.2.23017_copy)
+
